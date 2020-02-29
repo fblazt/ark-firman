@@ -1,10 +1,11 @@
 
 	<style type="text/css">
 		a {
-			padding: 10px 35px 10px !important;
+			font-size: 13px !important;
+			padding: 12px 45px 12px !important;
 		}
 		body {
-			background: linear-gradient(0deg, rgba(15, 13, 48, 0.76), rgba(15, 13, 48, 0.76)), url(<?= base_url('assets/img/AdobeStock_84849478_Preview.jpeg'); ?>) no-repeat fixed center;
+			background: linear-gradient(0deg, rgba(26, 25, 46, 0.75), rgba(26, 25, 46, 0.75)), url(<?= base_url('assets/img/AdobeStock_84849478_Preview.jpeg'); ?>) no-repeat fixed center;
 			background-size: cover;
 			height: 100%;
 		}
@@ -16,25 +17,32 @@
 		}
 		p {
 			font-family: Roboto;
-			color: white;
-		}.btn-outline-warning {
+			font-size: 14px;
+			color: #FFF;
+		}
+		.btn-outline-warning {
 			color: #f2b57b !important; 
 			border-color: #f2b57b !important;
 		}
 		.btn-outline-warning:hover {
-			color: white !important;
+			color: #FFF !important;
+			background-color: rgba(215, 85, 15, 0.71) !important; 
 		}
 		.btn-warning {
-			color: white !important;
+			color: #FFF !important;
 			background-color: #f2b57b;
 			border-color: #f2b57b;
 		}
+		.btn-warning:hover {
+			color: #FFF !important;
+			background-color: rgba(215, 85, 15, 0.71) !important;
+			border-color: #f2b57b !important;
+		}
 		.heading {
-			font-size: 45px;
+			font-size: 52px;
 		}
 		h1, #first {
-			color: white;
-
+			color: #FFF;
 		}
 		#pura {
 			width: 100px;
@@ -47,20 +55,31 @@
 	</style>
 </head>
 	<body>
+
 		<div class="container conntainer-fluid">
 			<div class="row justify-content-center">
 				<div class="col-6 mt-5 text-center">
+
+					<!--temple icon-->
 					<img id="pura" class="mt-5" src="<?= base_url('/assets/img/bali.svg'); ?>">
-					<h1 class="mt-5">
+
+					<!--heading-->
+					<h1 class="mt-5 mb-2">
 						<div class="heading" id="first">A Better way to</div>
 						<div class="heading" id="second">Travel to Bali</div>
 					</h1>
+
+					<!--marketing words???-->
 					<p>Cheapest and Easier</p>
-					<div class="mt-5 mb-5">
-						<a class="btn btn-outline-warning" href="<?= base_url('travel/about'); ?>">About Us</a>
-						<a class="btn btn-warning" href="<?= base_url('travel/reservation'); ?>">Reservation</a>
+
+					<!--navigation-->
+					<div class="my-5">
+						<a class="btn btn-outline-warning mx-1" href="<?= base_url('travel/about'); ?>">About Us</a>
+						<a class="btn btn-warning mx-1" href="<?= base_url('travel/reservation'); ?>">Reservation</a>
 					</div>
+
 				</div>
 			</div>
 		</div>
+
 	</body>

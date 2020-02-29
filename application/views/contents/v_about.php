@@ -1,7 +1,7 @@
 
 	<style type="text/css">
 		html, body {
-			background: linear-gradient(0deg, rgba(15, 13, 48, 0.76), rgba(15, 13, 48, 0.76)), url(<?= base_url('assets/img/AdobeStock_139923006_Preview.jpeg'); ?>) no-repeat fixed center;
+			background: linear-gradient(0deg, rgba(26, 25, 46, 0.75), rgba(26, 25, 46, 0.75)), url(<?= base_url('assets/img/AdobeStock_139923006_Preview.jpeg'); ?>) no-repeat fixed center;
 			background-size: cover;
 			height: 100%;
 		}
@@ -9,6 +9,9 @@
 			color: #f2b57b;
 			margin-top: 50px;
 			padding-left: 50px;
+		}
+		a:hover {
+			color: rgba(215, 85, 15, 0.71);
 		}
 		h1 {
 			color: #f2b57b;

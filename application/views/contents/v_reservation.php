@@ -1,7 +1,7 @@
 
 	<style type="text/css">
 		html, body {
-			background: linear-gradient(0deg, rgba(15, 13, 48, 0.76), rgba(15, 13, 48, 0.76)), url(<?= base_url('assets/img/AdobeStock_310153350_Preview.jpeg'); ?>) no-repeat fixed center;
+			background: linear-gradient(0deg, rgba(26, 25, 46, 0.75), rgba(26, 25, 46, 0.75)), url(<?= base_url('assets/img/AdobeStock_310153350_Preview.jpeg'); ?>) no-repeat fixed center;
 			background-size: cover;
 			height: 100%;
 		}
@@ -9,6 +9,9 @@
 			padding-left: 50px;
 			margin-top: 50px;
 			color: #f2b57b;
+		}
+		a:hover {
+			color: rgba(215, 85, 15, 0.71);
 		}
 		h1 {
 			font-family: Pacifico;
@@ -25,6 +28,9 @@
 			border-radius: 8px !important;
 			width: 100% !important;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+		}
+		button:hover {
+			background-color: rgba(215, 85, 15, 0.71) !important;
 		}
 		.form-control {
 			border-radius: 10px;
