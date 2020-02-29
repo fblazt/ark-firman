@@ -6,7 +6,7 @@
 			height: 100%;
 		}
 		a {
-			color: #f2b57b;
+			color: #F2B57B;
 			margin-top: 50px;
 			padding-left: 50px;
 		}
@@ -14,7 +14,7 @@
 			color: rgba(215, 85, 15, 0.71);
 		}
 		h1 {
-			color: #f2b57b;
+			color: #F2B57B;
 			font-family: Pacifico;
 			font-size: 55px;
 		}
@@ -38,7 +38,7 @@
 		<!--main content-->
 		<div class="container h-100">
 			<div class="row h-100 justify-content-center align-items-center">
-				<div class="col-8 text-center">
+				<div class="col-md-8 text-center">
 					<h1>About Us</h1>
 					<p class="mt-5">More than 10 years, Arkademy Travel Services has grow at steady pace and become one of Indonesia's leading travel agent offering a complete travel solution for both leisure and business travels. The company has over 500 staff within 24 branches across the country.</p>
 				</div>
