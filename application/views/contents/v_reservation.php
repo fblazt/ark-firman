@@ -8,7 +8,7 @@
 		a {
 			padding-left: 50px;
 			margin-top: 50px;
-			color: #f2b57b;
+			color: #F2B57B;
 		}
 		a:hover {
 			color: rgba(215, 85, 15, 0.71);
@@ -16,17 +16,16 @@
 		h1 {
 			font-family: Pacifico;
 			font-size: 55px;
-			color: #f2b57b;
+			color: #F2B57B;
 		}
 		button {
 			font-family: Pacifico;
 			font-size: 12px !important;
 			padding: 15px 0 15px !important;
 			color: white !important;
-			background-color: #f2b57b !important;
-			border-color: #f2b57b !important;
+			background-color: #F2B57B !important;
+			border-color: #F2B57B !important;
 			border-radius: 8px !important;
-			width: 100% !important;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
 		}
 		button:hover {
@@ -52,10 +51,10 @@
 
 		<div class="container h-100">
 			<div class="row h-100 justify-content-center align-items-center">
-				<div class="col-4 text-center">
+				<div class="col-md-4 text-center">
 
 					<!--page header-->
-					<h1>Reservation</h1>
+					<h1 class="my-5">Reservation</h1>
 
 					<!--form-->
 					<form class="mt-5">
@@ -347,7 +346,7 @@
 							</div>
 
 							<!--submit button-->
-							<button type="submit" class="btn btn-primary w-100 my-3">Submit</button>
+							<button type="submit" class="btn btn-primary btn-block my-3">Submit</button>
 					</form>
 				</div>
 			</div>
