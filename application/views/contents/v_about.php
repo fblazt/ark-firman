@@ -6,27 +6,33 @@
 			height: 100%;
 		}
 		a {
-			padding-left: 50px;
-			margin-top: 50px;
 			color: #f2b57b;
+			margin-top: 50px;
+			padding-left: 50px;
 		}
 		h1 {
+			color: #f2b57b;
 			font-family: Pacifico;
 			font-size: 55px;
-			color: #f2b57b;
 		}
 		p {
+			color: white;
 			font-family: Questrial;
 			font-size: 26px;
-			line-height: 1.2;
-			color: white;
+			line-height: 1.4;
 		}
 	</style>
 </head>
 	<body>
+
+		<!--arrow navigation-->
 		<nav class="navbar fixed-top">
-		  <a class="navbar-brand" href="<?= base_url('travel'); ?>"><i class="fas fa-arrow-left fa-2x"></i></a>
+		  <a class="navbar-brand" href="<?= base_url('travel'); ?>">
+		  	<i class="fas fa-arrow-left fa-2x"></i>
+		  </a>
 		</nav>
+
+		<!--main content-->
 		<div class="container h-100">
 			<div class="row h-100 justify-content-center align-items-center">
 				<div class="col-8 text-center">
