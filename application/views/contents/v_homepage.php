@@ -21,8 +21,8 @@
 			color: #FFF;
 		}
 		.btn-outline-warning {
-			color: #f2b57b !important; 
-			border-color: #f2b57b !important;
+			color: #F2B57B !important; 
+			border-color: #F2B57B !important;
 		}
 		.btn-outline-warning:hover {
 			color: #FFF !important;
@@ -30,13 +30,13 @@
 		}
 		.btn-warning {
 			color: #FFF !important;
-			background-color: #f2b57b;
-			border-color: #f2b57b;
+			background-color: #F2B57B;
+			border-color: #F2B57B;
 		}
 		.btn-warning:hover {
 			color: #FFF !important;
 			background-color: rgba(215, 85, 15, 0.71) !important;
-			border-color: #f2b57b !important;
+			border-color: #F2B57B !important;
 		}
 		.heading {
 			font-size: 52px;
@@ -44,24 +44,24 @@
 		h1, #first {
 			color: #FFF;
 		}
-		#pura {
+		#temple {
 			width: 100px;
 			height: 100px;
 			filter: invert(100%) sepia(94%) saturate(25%) hue-rotate(21deg) brightness(107%) contrast(106%);
 		}
 		h1, #second {
-			color: #f2b57b;
+			color: #F2B57B;
 		}
 	</style>
 </head>
 	<body>
 
-		<div class="container conntainer-fluid">
+		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-6 mt-5 text-center">
+				<div class="col mt-5 text-center">
 
 					<!--temple icon-->
-					<img id="pura" class="mt-5" src="<?= base_url('/assets/img/bali.svg'); ?>">
+					<img id="temple" class="mt-5" src="<?= base_url('/assets/img/bali.svg'); ?>">
 
 					<!--heading-->
 					<h1 class="mt-5 mb-2">
@@ -73,11 +73,12 @@
 					<p>Cheapest and Easier</p>
 
 					<!--navigation-->
-					<div class="my-5">
-						<a class="btn btn-outline-warning mx-1" href="<?= base_url('travel/about'); ?>">About Us</a>
-						<a class="btn btn-warning mx-1" href="<?= base_url('travel/reservation'); ?>">Reservation</a>
+					<div class="row my-5">
+						<div class="col">
+							<a class="btn btn-outline-warning mx-1" href="<?= base_url('travel/about'); ?>">About Us</a>
+							<a class="btn btn-warning mx-1" href="<?= base_url('travel/reservation'); ?>">Reservation</a>
+						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
