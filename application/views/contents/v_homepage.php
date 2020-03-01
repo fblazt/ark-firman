@@ -4,7 +4,7 @@
 			font-size: 13px !important;
 			padding: 12px 45px 12px !important;
 		}
-		body {
+		html, body {
 			background: linear-gradient(0deg, rgba(26, 25, 46, 0.75), rgba(26, 25, 46, 0.75)), url(<?= base_url('assets/img/AdobeStock_84849478_Preview.jpeg'); ?>) no-repeat fixed center;
 			background-size: cover;
 			height: 100%;
@@ -56,9 +56,9 @@
 </head>
 	<body>
 
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col mt-5 text-center">
+		<div class="container h-100">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="col text-center">
 
 					<!--temple icon-->
 					<img id="temple" class="mt-5" src="<?= base_url('/assets/img/bali.svg'); ?>">
